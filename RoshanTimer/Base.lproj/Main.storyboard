@@ -107,7 +107,7 @@
                                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="hJ6-05-bLy"/>
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
-                                                                <state key="normal" title="Roshan Died">
+                                                                <state key="normal" title="Roshan">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                                 <connections>
@@ -131,7 +131,7 @@
                                                                     <constraint firstAttribute="height" constant="50" id="Iy0-PZ-0aK"/>
                                                                     <constraint firstAttribute="width" constant="160" id="laI-jg-64q"/>
                                                                 </constraints>
-                                                                <state key="normal" title="Button">
+                                                                <state key="normal" title="Aegis">
                                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 </state>
                                                                 <connections>

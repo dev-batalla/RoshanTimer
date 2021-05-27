@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C1351AB266047DB00B135F7 /* RoshanTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1351AA266047DB00B135F7 /* RoshanTimerUITests.swift */; };
 		9C99CC3026600BEC00BC2967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C99CC2F26600BEC00BC2967 /* AppDelegate.swift */; };
 		9C99CC3226600BEC00BC2967 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C99CC3126600BEC00BC2967 /* SceneDelegate.swift */; };
 		9C99CC3426600BEC00BC2967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C99CC3326600BEC00BC2967 /* ViewController.swift */; };
@@ -15,7 +16,20 @@
 		9C99CC3C26600BED00BC2967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C99CC3A26600BED00BC2967 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9C1351AD266047DB00B135F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C99CC2426600BEC00BC2967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C99CC2B26600BEC00BC2967;
+			remoteInfo = RoshanTimer;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		9C1351A8266047DB00B135F7 /* RoshanTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshanTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C1351AA266047DB00B135F7 /* RoshanTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshanTimerUITests.swift; sourceTree = "<group>"; };
+		9C1351AC266047DB00B135F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C99CC2C26600BEC00BC2967 /* RoshanTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoshanTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C99CC2F26600BEC00BC2967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C99CC3126600BEC00BC2967 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +41,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9C1351A5266047DB00B135F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C99CC2926600BEC00BC2967 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -37,10 +58,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C1351A9266047DB00B135F7 /* RoshanTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C1351AA266047DB00B135F7 /* RoshanTimerUITests.swift */,
+				9C1351AC266047DB00B135F7 /* Info.plist */,
+			);
+			path = RoshanTimerUITests;
+			sourceTree = "<group>";
+		};
 		9C99CC2326600BEC00BC2967 = {
 			isa = PBXGroup;
 			children = (
 				9C99CC2E26600BEC00BC2967 /* RoshanTimer */,
+				9C1351A9266047DB00B135F7 /* RoshanTimerUITests */,
 				9C99CC2D26600BEC00BC2967 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				9C99CC2C26600BEC00BC2967 /* RoshanTimer.app */,
+				9C1351A8266047DB00B135F7 /* RoshanTimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +102,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9C1351A7266047DB00B135F7 /* RoshanTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C1351B1266047DB00B135F7 /* Build configuration list for PBXNativeTarget "RoshanTimerUITests" */;
+			buildPhases = (
+				9C1351A4266047DB00B135F7 /* Sources */,
+				9C1351A5266047DB00B135F7 /* Frameworks */,
+				9C1351A6266047DB00B135F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C1351AE266047DB00B135F7 /* PBXTargetDependency */,
+			);
+			name = RoshanTimerUITests;
+			productName = RoshanTimerUITests;
+			productReference = 9C1351A8266047DB00B135F7 /* RoshanTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		9C99CC2B26600BEC00BC2967 /* RoshanTimer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C99CC4026600BED00BC2967 /* Build configuration list for PBXNativeTarget "RoshanTimer" */;
@@ -96,6 +146,10 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					9C1351A7266047DB00B135F7 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 9C99CC2B26600BEC00BC2967;
+					};
 					9C99CC2B26600BEC00BC2967 = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -115,11 +169,19 @@
 			projectRoot = "";
 			targets = (
 				9C99CC2B26600BEC00BC2967 /* RoshanTimer */,
+				9C1351A7266047DB00B135F7 /* RoshanTimerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9C1351A6266047DB00B135F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C99CC2A26600BEC00BC2967 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +195,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9C1351A4266047DB00B135F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C1351AB266047DB00B135F7 /* RoshanTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9C99CC2826600BEC00BC2967 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -144,6 +214,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C1351AE266047DB00B135F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C99CC2B26600BEC00BC2967 /* RoshanTimer */;
+			targetProxy = 9C1351AD266047DB00B135F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9C99CC3526600BEC00BC2967 /* Main.storyboard */ = {
@@ -165,6 +243,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9C1351AF266047DB00B135F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXDQB6XMCS;
+				INFOPLIST_FILE = RoshanTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.batalla.RoshanTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoshanTimer;
+			};
+			name = Debug;
+		};
+		9C1351B0266047DB00B135F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LXDQB6XMCS;
+				INFOPLIST_FILE = RoshanTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.batalla.RoshanTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoshanTimer;
+			};
+			name = Release;
+		};
 		9C99CC3E26600BED00BC2967 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -322,6 +438,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9C1351B1266047DB00B135F7 /* Build configuration list for PBXNativeTarget "RoshanTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1351AF266047DB00B135F7 /* Debug */,
+				9C1351B0266047DB00B135F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9C99CC2726600BEC00BC2967 /* Build configuration list for PBXProject "RoshanTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
